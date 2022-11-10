@@ -1,0 +1,145 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("./../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-position: center top;
+    background-size: 100% auto;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+}
+
+article>img {
+    border-radius: 20px 20px 0 0;
+}
+
+article>section>h1 {
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    font-size: 1.8em;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 0.5em;
+}
+
+section {
+    padding: 1em;
+    border-radius: 0 0 20px 20px;
+}
+
+article>section {
+    background-color: white;
+}
+
+article p {
+    font-size: 16px;
+    font-family: 'Red Hat Display';
+    color: hsl(224, 23%, 55%);
+}
+
+article>section>p:first-of-type {
+    text-align: center;
+    padding-left: 3em;
+    padding-right: 3em;
+    line-height: 1.7em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+article>section>p:nth-last-of-type(1) {
+    text-align: center;
+}
+
+article>section>p:nth-last-of-type(2) {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 15px;
+    text-align: center;
+}
+
+article a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+
+}
+
+article>section>p:nth-last-of-type(2)>a {
+    color: white;
+    font-weight: 900;
+}
+
+article>section>p:nth-last-of-type(2):hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+article>section>p:nth-last-of-type(1)>a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+#payment {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 1.2em 2em 2em 2em;
+}
+
+#payment_info>img {
+    align-self: center;
+    margin: 1.5em;
+}
+
+#payment>p {
+    align-self: center;
+    margin: 1.5em;
+
+}
+
+#payment>p>a {
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+#payment>p>a:hover {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+#payment_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#plan>p:first-of-type {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position:relative;
+    top:20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
